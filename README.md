@@ -27,6 +27,16 @@ Usage
 -----
 The program renders the picture of rotation numbers by square parts.
 
+### Fetching
+**WARNING**
+
+`git clone` fetches all branches, so it will download hundreds of tiles from GitHub Pages.
+
+To avoid this, use
+```
+git clone https://github.com/demyanenko/Circle-Map-Rotation-Number.git -b master --single-branch
+```
+
 ### Configuring
 Rendering process is fully controlled by definitions in the beginning of `rmap.cu`:
 ```

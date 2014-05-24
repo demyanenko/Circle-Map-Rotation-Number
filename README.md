@@ -3,7 +3,9 @@ Circle Map Rotation Number
 
 There is a map named [Circle Map]. It maps a circle to itself:
 
-![Equation](http://upload.wikimedia.org/math/c/c/c/ccc193ba8bfd2d40b2ea087ac2ae1c1f.png) ![Theta](http://upload.wikimedia.org/math/5/0/d/50d91f80cbb8feda1d10e167107ad1ff.png) is an angle between 0 and 1.
+![Equation](http://upload.wikimedia.org/math/c/c/c/ccc193ba8bfd2d40b2ea087ac2ae1c1f.png)
+
+θ is an angle between 0 and 1.
 
 Circle map has two parameters, K and Ω. We can lock them and calculate the average angle the point rotates by during iteration process. If we clip resulting value by [0, 1] and vary our parameters, we can get following picure:
 
@@ -21,7 +23,7 @@ Prerequisites
 
 Usage
 -----
-The program renders rotation map by square parts.
+The program renders the picture of rotation numbers by square parts.
 
 ### Configuring
 Rendering process is fully controlled by definitions in the beginning of `rmap.cu`:

@@ -30,11 +30,11 @@ The program renders the picture of rotation numbers by square parts.
 ### Fetching
 **WARNING**
 
-`git clone` fetches all branches, so it will download hundreds of tiles from GitHub Pages.
+`git clone` fetches all branches by default, so it will download hundreds of tiles from GitHub Pages.
 
 To avoid this, use
 ```
-git clone https://github.com/demyanenko/Circle-Map-Rotation-Number.git -b master --single-branch
+$ git clone https://github.com/demyanenko/Circle-Map-Rotation-Number.git -b master --single-branch
 ```
 
 ### Configuring

@@ -8,18 +8,17 @@
 #define M_PI (floattype)(3.14159265358979323846)
 #define MINUS_INVERSE_2_PI (floattype)(-0.15915494309189533576888376337251)
 
-#define SIZE 3072
-#define TOTAL_SIZE 16384
-#define X 0
-#define Y 11264
-
-#define EPS (floattype)(1e-3)
+#define SIZE 256  // part side in pixels
+#define TOTAL_SIZE 256  // whole picture side in pixels
+#define X 0  // part offset from left
+#define Y 0  // part offset from bottom
 
 #define THREADS 448
 #define JOBS_PER_THREAD 384
 #define ITER_PER_JOB 100000
 #define TOTAL_JOBS (JOBS_PER_THREAD * THREADS)
 
+#define EPS (floattype)(1e-3)
 #define ITER_TAIL 1000
 #define SAMPLING_TAIL 512
 

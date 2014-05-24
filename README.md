@@ -15,6 +15,8 @@ There red corresponds to 0, yellow to 1/2 and blue to 1. Ω varies from 0 to 1 a
 
 But if we want to produce a picture that is bigger than 256x256, we might want to use GPU power for computing. That's why I implemented this program in CUDA.
 
+I rendered the picture in 16K×16K resolution, and that took 20+ hours on GTX480. You can view result [here](http://demyanenko.github.io/Circle-Map-Rotation-Number/) (powered by pano.js).
+
 Prerequisites
 -------------
 - Nvidia GPU with Computing Capability 2.0 or higher
